@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Profile Card</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Student Profile Form</h2>
+
+        <input type="text" id="name" placeholder="Enter Student Name">
+        <input type="text" id="rollno" placeholder="Enter Roll Number">
+        <input type="number" id="marks" placeholder="Enter Marks">
+
+        <button onclick="displayProfile()">
+            Display Profile
+        </button>
+
+        <div class="profile-card" id="profile">
+            <h3>Student Profile</h3>
+
+            <p><b>Name:</b> <span id="pname"></span></p>
+            <p><b>Roll No:</b> <span id="proll"></span></p>
+            <p><b>Marks:</b> <span id="pmarks"></span></p>
+            <p><b>Grade:</b> <span id="pgrade"></span></p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
